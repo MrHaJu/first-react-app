@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  display: grid;
+  overflow: hidden;
+  height: 100%;
+  grid-template:
+    "header   header    header" auto
+    "sidebar  main      main" auto
+    "sidebar  main      main" auto
+    "nav      article   aside" 1fr
+    "footer   footer    footer" auto /
+    auto      1fr       auto;
 }
 
 .App-logo {
