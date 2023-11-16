@@ -10,6 +10,8 @@ import EventBinding from "./components/EventBinding";
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import NestingComponents from './components/NestingComponents';
+import NavBarForm from "./components/NavBarForm";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       </header>
       <nav>
         <NavBarSimple />
+        <NavBarForm />
       </nav>
       <article>
         <FunctionalGreetingWithProps greeting="nice to meet you!" name="Mike" age="32" />
