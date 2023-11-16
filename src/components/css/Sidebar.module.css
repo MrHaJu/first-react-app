@@ -9,7 +9,7 @@
 }
 
 .sidebar > a {
-    background-color: white;
+    background-color: grey;
     color: #445261;
     border: white solid 1px;
     padding: 10px 0;
@@ -19,6 +19,6 @@
 
 .sidebar > a:hover{
     color: #445261;
-    background-color: #e6ecf0;
+    background-color: yellow;
     border: white solid 1px;
 }
