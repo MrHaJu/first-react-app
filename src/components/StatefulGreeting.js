@@ -41,6 +41,7 @@ class StatefulGreeting extends React.Component {
         render() {
         return (
         <div>
+            <h1 className="intro">StatefulGreeting</h1>
             <h1>
                 {this.state.introduction} {this.props.greeting}
             </h1>

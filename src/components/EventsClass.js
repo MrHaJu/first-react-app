@@ -7,6 +7,7 @@ export class EventsClass extends Component {
   render() {
     return (
       <div>
+        <h1 className="intro">EventsClass</h1>
         <button onClick={this.clickHandler}>click me - class component</button>
       </div>
     );

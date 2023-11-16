@@ -6,6 +6,7 @@ function EventsFunctional() {
     }
     return (
         <div>
+            <h1 className="intro"> EventsFunctional</h1>
             <button onClick={clickHandler}>click me - functional component</button>
         </div>
     )

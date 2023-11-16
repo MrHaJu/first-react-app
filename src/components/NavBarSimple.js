@@ -23,6 +23,7 @@ class NavBarSimple extends Component {
     render() {
         return (
             <div className={css.NavBar}>
+                <h1 className="intro">NavBarSimple</h1>
                 <h1>My Gallery</h1>
                 <div>
                     <span>{this.state.message}</span>
